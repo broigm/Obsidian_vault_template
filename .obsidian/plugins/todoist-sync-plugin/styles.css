@@ -1,0 +1,161 @@
+.todoist-query-title {
+  display: inline;
+  font-size: 1.25em;
+}
+
+.is-live-preview .todoist-refresh-button {
+  /* The refresh button sits next to the built-in 'Edit' button. So we need to place this excatly to the right of that one. But with --size-2-2 as buffer to it. */
+  margin-right: calc(var(--icon-size) + 3 * var(--size-2-2));
+}
+
+.is-live-preview .todoist-add-button {
+  /* The add button is two buttons in, so we need to double the padding size */
+  margin-right: calc(2 * var(--icon-size) + 6 * var(--size-2-2));
+}
+
+.markdown-reading-view .todoist-add-button,
+.markdown-reading-view .todoist-refresh-button {
+  float: right;
+  margin-left: 8px;
+  color: var(--text-muted);
+  border-radius: var(--radius-s);
+  padding: var(--size-2-2) var(--size-2-3);
+}
+
+.markdown-reading-view .todoist-add-button:hover,
+.markdown-reading-view .todoist-refresh-button:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.is-live-preview .todoist-refresh-button.todoist-refresh-fetching {
+  opacity: 1!important;
+}
+
+.todoist-refresh-fetching > div {
+  animation: spin 1s linear infinite reverse;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.markdown-reading-view .task-metadata,
+.markdown-reading-view .todoist-task-description {
+  margin-left: 6px;
+}
+
+.is-live-preview .task-metadata,
+.is-live-preview .todoist-task-description {
+  margin-left: 34px;
+}
+
+.task-metadata-item {
+  display: flex;
+  align-items: center;
+}
+
+.task-metadata-item > * + * {
+  margin-left: 0.25rem;
+}
+
+.task-metadata-item.task-overdue {
+  color: var(--text-error);
+}
+
+.todoist-project {
+  white-space: normal;
+}
+
+.todoist-project .todoist-project {
+  margin-left: 20px;
+}
+
+.todoist-project .todoist-section {
+  margin-left: 20px;
+}
+
+.todoist-error {
+  background-color: rgb(var(--background-modifier-error-rgb), 0.5);
+  border: 1px solid var(--background-modifier-error);
+  padding: 0 10px 20px 10px;
+  margin-top: 20px;
+}
+
+.todoist-success {
+  border: 1px solid var(--background-modifier-border);
+  padding: 0 10px 20px 10px;
+  margin-top: 20px;
+}
+
+.todoist-task-content {
+  display: inline;
+  text-indent: 0px;
+}
+
+ul.todoist-task-list {
+  white-space: normal;
+  padding-inline-start: calc(var(--list-indent) - 11px);
+}
+
+.markdown-reading-view .hide-in-reading-view {
+  display: none;
+}
+
+.theme-dark {
+    --todoist-p1-border: #ff7066;
+    --todoist-p1-border-hover: #ff706680;
+    --todoist-p1-background: rgba(255,112,102, .1);
+
+    --todoist-p2-border: #ff9a14;
+    --todoist-p2-border-hover: #ff9a1480;
+    --todoist-p2-background: rgba(255,154,20, .1);
+
+    --todoist-p3-border: #5297ff;
+    --todoist-p3-border-hover: #5297ff80;
+    --todoist-p3-background: rgba(82,151,255, .1);
+}
+
+.theme-light {
+    --todoist-p1-border: #d1453b;
+    --todoist-p1-border-hover: #d1453b80;
+    --todoist-p1-background: rgba(209,69,59, .1);
+
+    --todoist-p2-border: #eb8909;
+    --todoist-p2-border-hover: #eb890980;
+    --todoist-p2-background: rgba(235,137,9, .1);
+
+    --todoist-p3-border: #246fe0;
+    --todoist-p3-border-hover: #246fe080;
+    --todoist-p3-background: rgba(36,111,224, .1);
+}
+
+.todoist-p1 input {
+    --checkbox-border-color: var(--todoist-p1-border);
+    --checkbox-border-color-hover: var(--todoist-p1-border-hover);
+    background-color: var(--todoist-p1-background);
+
+}
+
+.todoist-p2 input {
+    --checkbox-border-color: var(--todoist-p2-border);
+    --checkbox-border-color-hover: var(--todoist-p2-border-hover);
+    background-color: var(--todoist-p2-background);
+}
+
+.todoist-p3 input {
+    --checkbox-border-color: var(--todoist-p3-border);
+    --checkbox-border-color-hover: var(--todoist-p3-border-hover);
+    background-color: var(--todoist-p3-background);
+}
+
+.todoist-task-description {
+  font-size: 80%;
+  color: var(--text-muted);
+}
+
+.todoist-project-title {
+  margin: 1em 0;
+  font-weight: 700;
+}

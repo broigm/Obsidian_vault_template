@@ -1,0 +1,41 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "6.Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "1.Daily_Notes",
+      "template": "6.Templates/Daily.md"
+    },
+    {
+      "folder": "7.Participantes",
+      "template": "6.Templates/Participantes.md"
+    },
+    {
+      "folder": "2.Notas_Reunión",
+      "template": "6.Templates/Meetings.md"
+    },
+    {
+      "folder": "1.Daily_Notes/2024/{{date:MM-MMMM}}",
+      "template": "6.Templates/Notas.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [],
+  "enable_ribbon_icon": true
+}
