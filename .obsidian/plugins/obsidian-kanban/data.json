@@ -1,0 +1,17 @@
+{
+  "show-checkboxes": true,
+  "new-note-folder": "3.Storage/0.Work/1.Altia",
+  "date-picker-week-start": 1,
+  "archive-with-date": true,
+  "link-date-to-daily-note": true,
+  "date-colors": [],
+  "show-relative-date": true,
+  "tag-colors": [],
+  "move-dates": true,
+  "append-archive-date": true,
+  "archive-date-separator": " | ",
+  "move-task-metadata": true,
+  "max-archive-size": 100,
+  "new-note-template": "6.Templates/RequestResponse_Doc.md",
+  "move-tags": true
+}
