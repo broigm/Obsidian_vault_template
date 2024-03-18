@@ -1,7 +1,7 @@
 [[Home]] #MOC
 
 ```meta-bind-button
-label: Participantes
+label: Nuevo Participante
 hidden: false
 class: ""
 tooltip: ""
@@ -29,11 +29,11 @@ These are the different categories of People Notes:
 
 ---
 ### Templates
-- [[Template, People]]
+- [[Participants]]
 
 # People
 ```dataview
-table title
+table title, category
 from "7.Participantes"
 sort file.name asc
 ```
