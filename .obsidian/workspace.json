@@ -154,7 +154,7 @@
             }
           },
           {
-            "id": "9bc83d336295d5b5",
+            "id": "fbe1be33eb7340e6",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -180,14 +180,17 @@
       "markdown-importer:Abrir el importador de Markdown": false,
       "workspaces:Gestionar disposiciones de espacio de trabajo": false,
       "templater-obsidian:Templater": false,
-      "obsidian-day-planner:Timeline": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
   "active": "f9f79a15efda6b2f",
   "lastOpenFiles": [
-    "2.Notas_Reunión/2024-03-17 TKTK.md",
+    "1.Daily_Notes/2024/03-marzo/19-martes.md",
     "6.Templates/Notes.md",
+    "1.Daily_Notes/2024/03-marzo",
+    "1.Daily_Notes/2024",
+    "2.Notas_Reunión/2024-03-17 TKTK.md",
     "6.Templates/Meetings.md",
     "6.Templates/Daily.md",
     "6.Templates/Participants.md",
@@ -205,8 +208,6 @@
     "3.Projects/0.Work/0.Chakray/2.Notas_Reunión/2024-03-17 TKTK.md",
     "3.Projects/0.Work/0.Chakray/2.Notas_Reunión/TKTK.md",
     "3.Projects/0.Work/0.Chakray/1.daily_notes/2024/03-marzo/17-domingo.md",
-    "1.Daily_Notes/2024/03-marzo",
-    "1.Daily_Notes/2024",
     "0.Personal/1.Ideas/Aliexpress api.md",
     "0.Personal/1.Ideas/Mid and Little BI.md",
     "0.Personal/1.Ideas/ChargerSAAS.md",
@@ -215,7 +216,6 @@
     "3.Projects/0.Work/0.Chakray/todoist-backup-2024112224946.json",
     "3.Projects/0.Work/0.Chakray/7.Participantes/Rubén.Guijarro.md",
     "3.Projects/0.Work/0.Chakray/7.Participantes/Roberto.Prado.md",
-    "3.Projects/0.Work/0.Chakray/7.Participantes/Oscar.paz.md",
     "3.Projects/0.Work/0.Chakray/7.Participantes",
     "3.Projects/0.Work/0.Chakray/6.Templates",
     "3.Projects/0.Work/0.Chakray/5.Excalidraw",
