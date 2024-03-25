@@ -164,6 +164,12 @@ List FROM "" WHERE file.mday = date("<%tp.date.now('YYYY-MM-DD')%>") SORT file.m
 TASK FROM "1.Daily_Notes" WHERE !completed AND !checked AND !due AND file.cday != this.file.cday and file.name !="Daily MOC" AND !parent GROUP BY file.link
 ```
 
+# ✅ Tareas Completadas hoy
+
+```dataview
+ TASK FROM "1.Daily_Notes" WHERE completed AND checked AND completion = this.file.cday SORT due asc GROUP BY file.link
+```
+---
 
 - - -
 
