@@ -1,0 +1,13 @@
+{
+  "includeFirstLineAsNoteHeading": false,
+  "excludeFirstLineInNote": false,
+  "openNewNote": true,
+  "headingFormat": "#",
+  "newFileLocation": 1,
+  "customFolder": "1.daily_notes/{{date:YYYY/MM-MMMM}}",
+  "fileNamePrefix": "📝 {{date:DD-MM-YYYY}}",
+  "transcludeByDefault": true,
+  "noteLinkTemplate": "",
+  "refactoredNoteTemplate": "{{date:DD-MM-YYYY}}\n- - -\n# {{new_note_title}} - {{title}}\n- - -\n{{new_note_content}}\n- - -\n{{title}} {{link}}",
+  "normalizeHeaderLevels": true
+}

@@ -1,0 +1,37 @@
+/*
+ * The simplest possible CSS to present the default statuses provided by the
+ * tasks plugin:
+ *   [-]  Cancelled
+ *   [/]  In Progress
+ *
+ * Should display the same in reading mode, editing mode and task display mode
+ *
+ * Thanks to deathau's checkbox snippets as a starting point:
+ * https://github.com/deathau/obsidian-snippets/blob/main/checkbox.css
+ *
+ * Tested with Obsidian v1.5.3 and Tasks 6.0.0
+ */
+
+/* Horizontal dash icon in checkbox for Cancelled tasks */
+.task-list-item-checkbox[data-task="-"]:checked::after,
+.plugin-tasks-list-item[data-task="-"]>.task-list-item-checkbox:checked::after {
+    content: '';
+    background-color: white;
+    margin: 0;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='6.5' width='13' height='1'/%3E%3C/svg%3E");
+}
+
+/* Strikethrough for Cancelled tasks */
+.HyperMD-task-line[data-task="-"],
+.plugin-tasks-list-item[data-task="-"] {
+    text-decoration: var(--checklist-done-decoration);
+}
+
+/* Half shaded checkbox for In Progress tasks */
+.task-list-item-checkbox[data-task="/"]:checked::after,
+.plugin-tasks-list-item[data-task="/"]>.task-list-item-checkbox:checked::after {
+    background-color: white;
+    margin: 0;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='14,14 0,14 14,0'/%3E%3C/svg%3E");
+
+}

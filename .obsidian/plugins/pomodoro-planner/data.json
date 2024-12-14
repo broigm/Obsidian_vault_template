@@ -1,0 +1,9 @@
+{
+  "pomodoro": 25,
+  "shortBreak": 5,
+  "longBreak": 15,
+  "group": 4,
+  "includeStats": true,
+  "includeShortBreak": true,
+  "includeLongBreak": true
+}

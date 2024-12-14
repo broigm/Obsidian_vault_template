@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 17,
+  "cssTheme": "",
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "tasks"
+  ]
+}

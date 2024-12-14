@@ -1,0 +1,19 @@
+{
+  "workLen": 25,
+  "breakLen": 5,
+  "autostart": true,
+  "useStatusBarTimer": true,
+  "notificationSound": true,
+  "customSound": "",
+  "showTaskProgress": true,
+  "enableTaskTracking": true,
+  "logFile": "FILE",
+  "logFocused": true,
+  "logPath": "Pomodoro_Log",
+  "logLevel": "ALL",
+  "logTemplate": "<%*\nif (log.mode == \"WORK\") {\n  if (!log.finished) {\n    tR = `🟡 Focused ${log.task.name} ${log.duration} / ${log.session} minutes`;\n  } else {\n    tR = `🍅 Focused ${log.task.name} ${log.duration} minutes`;\n  }\n} else {\n  tR = `☕️ Took a break from ${log.begin.format(\"HH:mm\")} to ${log.end.format(\n    \"HH:mm\"\n  )}`;\n}\n%>",
+  "logFormat": "CUSTOM",
+  "useSystemNotification": false,
+  "taskFormat": "TASKS",
+  "lowFps": false
+}

@@ -1,0 +1,58 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "6.Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "1.Daily_Notes",
+      "template": "6.Templates/Daily.md"
+    },
+    {
+      "folder": "7.Participantes",
+      "template": "6.Templates/Participants.md"
+    },
+    {
+      "folder": "2.Notas_Reunión",
+      "template": "6.Templates/Meetings.md"
+    },
+    {
+      "folder": "8.Análisis",
+      "template": "6.Templates/Análisis.md"
+    },
+    {
+      "folder": "4.Kanban_boards",
+      "template": "6.Templates/Notas.md"
+    },
+    {
+      "folder": "3.Storage",
+      "template": "6.Templates/Project_template.md"
+    },
+    {
+      "folder": "10.Attachments",
+      "template": "6.Templates/RequestResponse_Doc.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "enable_ribbon_icon": true
+}
